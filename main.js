@@ -37,9 +37,6 @@ clearBtn.addEventListener("click",()=>{
   pixels.forEach(pixel => {
     pixel.style.backgroundColor = "black";
   });
-  pixels.addEventListener("mouseover",()=>{
-    pixels.style.backgroundColor = "yellow";
-  })
 });
 
 //erase colored pixel on hover
